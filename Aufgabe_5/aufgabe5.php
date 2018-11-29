@@ -16,7 +16,7 @@
 					<th>Zufallszahl</th>
 					for($j=1; $j<=$stellen; $j++)
 					{
-						echo "<th>".$j .gerundet "</th>";
+						echo "<th>".$j .gerundet "<th>";
 					}
 					echo "</tr>
 						</thead>
@@ -28,11 +28,11 @@
 				//$gerundet1 = abschneiden($zzahl, stellen 1);
 				//$gerundet2 = abschneiden($zzahl, stellen 2);
 				//$gerundet3 = abschneiden($zzahl, stellen 3);
-				//echo $zzahl." ".$gerundet2." ".$gerundet3." <br/>";
+				//echo $zzahl . " " . $gerundet2 . " " . $gerundet3 . "<br/>";
 				if($zzahl<10000) {
 					echo "<tr class='text-right' style='background-color:#b1d471'>";
 				}
-				echo "<tr class='text-right'>";>;
+				echo "<tr> class='text-right'>"</tr>;
 				echo "<td>" .$zzahl. "</td>";
 				for($j=1; $j<=$stellen; $j++)
 				{
